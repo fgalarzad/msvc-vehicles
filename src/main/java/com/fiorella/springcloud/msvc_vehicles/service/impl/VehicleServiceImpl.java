@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.fiorella.springcloud.msvc_vehicles.entity.Vehicle;
 import com.fiorella.springcloud.msvc_vehicles.repository.VehicleRepository;
 import com.fiorella.springcloud.msvc_vehicles.service.VehicleService;
-/*
+
 @Service
 public class VehicleServiceImpl implements VehicleService{
     
@@ -39,6 +39,6 @@ public class VehicleServiceImpl implements VehicleService{
         });
     }
 
-} */
+} 
 
 

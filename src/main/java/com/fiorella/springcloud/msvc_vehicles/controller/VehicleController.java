@@ -18,7 +18,7 @@ import com.fiorella.springcloud.msvc_vehicles.service.VehicleService;
 @RestController
 @RequestMapping("/api/vehicles")
 public class VehicleController {
-
+/*
    @Value("${server.port}")
     private int port;
 
@@ -38,8 +38,8 @@ public class VehicleController {
                     return v;
                 })
                 .collect(Collectors.toList());
-    }
-/*
+    }*/
+
     @Autowired
     private VehicleService vehicleService;
 
@@ -56,5 +56,5 @@ public class VehicleController {
         } else {
             return ResponseEntity.notFound().build();
         }
-    } */
+    } 
 }
